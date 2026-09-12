@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0b0d12">
+<title>PS CENTER — Katalog Game PS4</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar"><div class="brand"><div class="logo">PS<span>CENTER</span></div><small>KATALOG GAME PS4</small></div><a class="wa-top" id="waTop" target="_blank" rel="noopener">WhatsApp</a></header>
+<main>
+<section class="hero"><div><p class="eyebrow">PLAY • RENT • ENJOY</p><h1>Katalog Game <span>PS4</span></h1><p class="hero-text">Scan QR, pilih game favorit, lalu hubungi PS Center untuk rental.</p><div class="hero-actions"><a href="#games" class="btn primary">Lihat Game</a><button class="btn ghost" id="showQR">Tampilkan QR</button></div></div>
+<div class="qr-card"><div id="qrcode"></div><b>SCAN UNTUK BUKA KATALOG</b><small>Gunakan kamera HP</small></div></section>
+<section class="toolbar" id="games"><div class="search-wrap"><input id="search" type="search" placeholder="Cari game..."></div><div class="categories" id="categories"></div></section>
+<section class="section-head"><div><p class="eyebrow">PILIHAN</p><h2>Game PS4</h2></div><span id="count"></span></section>
+<section class="grid" id="gameGrid"></section>
+<section class="info"><div><strong>🎮 Rental PS4</strong><span>Game pilihan untuk pelanggan</span></div><div><strong>📱 Pesan via WhatsApp</strong><span>Klik tombol rental pada game</span></div><div><strong>📷 QR Code</strong><span>Tempel QR di meja/kasir</span></div></section>
+</main>
+<div class="modal" id="modal"><div class="modal-box"><button class="close" id="close">×</button><img id="modalCover" alt=""><div class="modal-body"><p class="eyebrow" id="modalGenre"></p><h2 id="modalTitle"></h2><p id="modalDesc"></p><div class="details"><span id="modalPlayers"></span><strong id="modalPrice"></strong></div><a id="modalWA" class="btn primary full" target="_blank" rel="noopener">Rental via WhatsApp</a></div></div></div>
+<div class="qr-modal" id="qrModal"><div class="qr-big"><button class="close" id="closeQR">×</button><div id="qrcodeBig"></div><h3>Scan Katalog PS Center</h3><p>Arahkan kamera HP ke QR Code ini.</p></div></div>
+<footer>© <span id="year"></span> PS CENTER • Katalog Game PS4</footer>
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script><script src="app.js"></script>
+</body></html>
