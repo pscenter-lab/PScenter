@@ -1,4 +1,4 @@
-const CONFIG={businessName:"PS CENTER",whatsapp:"6281234567890",catalogUrl:window.location.href,currency:"Rp"};
+const CONFIG={businessName:"PS CENTER",whatsapp:"6289502550590",catalogUrl:window.location.href,currency:"Rp"};
 const games=[
 {id:1,title:"GTA V",genre:"Action",players:"1–2 Player",price:10000,status:"Tersedia",cover:"covers/gta-v.svg",desc:"Open-world action dengan mode story dan multiplayer."},
 {id:2,title:"EA SPORTS FC 24",genre:"Sport",players:"1–4 Player",price:10000,status:"Tersedia",cover:"covers/fc24.svg",desc:"Main sepak bola bersama teman dengan berbagai mode pertandingan."},
